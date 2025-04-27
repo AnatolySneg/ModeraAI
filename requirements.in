@@ -1,5 +1,7 @@
 pip-tools
 pipdeptree
 fastapi[standard]
-sqlalchemy
+sqlalchemy[asyncio]
+asyncpg
 alembic
+python-dotenv

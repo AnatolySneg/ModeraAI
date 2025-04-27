@@ -1,9 +1,6 @@
-from ctypes.wintypes import tagPOINT
-
 import uvicorn
 from fastapi import FastAPI
-from routes import api, auth
-
+from modera_app.routes import api, auth
 
 app = FastAPI()
 
